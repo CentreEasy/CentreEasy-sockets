@@ -13,7 +13,7 @@ exports.login = function (UserModel, SocketAttribute) {
         if (user) {
             // The user is correct
             await exports.addSocketId(user, SocketAttribute, socket.id);
-            console.log("A USER LOGGED IN: " + user._id);
+            console.log("A USER LOGGED IN2: " + user._id);
         }
     }
 };
